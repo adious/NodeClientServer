@@ -5,13 +5,13 @@ const PORT = 8093;
 
 var http = require('http');
 var connect = require('connect');
-var morgan = require('morgan'); //for logging
+var logger = require('morgan'); //for logging
 var bodyParser = require("body-parser"); // for parsing data
 
 
 //setting up connect middleware
 var app = connect()
-.use(morgan('combined'))
+.use(logger('dev'))
 .use(bodyParser.urlencoded({extended:false}));
 
 
