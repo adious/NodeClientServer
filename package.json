@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/adious/NodeClientServer/issues"
   },
-  "homepage": "https://github.com/adious/NodeClientServer#readme"
+  "homepage": "https://github.com/adious/NodeClientServer#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "connect": "^3.4.0",
+    "morgan": "^1.6.1",
+    "request": "^2.65.0"
+  }
 }
