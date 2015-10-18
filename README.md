@@ -6,7 +6,7 @@ Assume node and npm (node package manager) is already installed
 ##Clone this repo
 
 ```sh
-$ git clone https://github.com/adious/SimpleNodeServer.git
+$ git clone https://github.com/adious/NodeClientServer.git
 ```
 
 ##Install install dependencies in package.json 
@@ -20,15 +20,17 @@ $ npm install
 ```sh
 $ node server.js
 ```
-
-##Run client from CLI
+##Run client in new terminal
 ```sh
-$ curl http://localhost:<port>/form
+$ node client.js
 ```
 
 ##Run client in browser
-1: Open userform included in project
-2: fill in form fields
-3: submit
+1. Open userform included in project
+2. fill in form fields
+3. submit
 
+##Response
+If all goes well. you will see response msg back from server.
 
+Server will output request information using morgan logger.
